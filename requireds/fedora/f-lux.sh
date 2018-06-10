@@ -3,9 +3,9 @@
 wget -c https://justgetflux.com/linux/xflux64.tgz
 tar -xzf xflux64.tgz
 
-mv xflux /usr/bin/
-chmod 755 /usr/bin/xflux
-chown root:root /usr/bin/xflux
+sudo mv xflux /usr/bin/
+sudo chmod 755 /usr/bin/xflux
+sudo chown root:root /usr/bin/xflux
 
 #latitude = -26.9165792
 #longitude = -49.0717331
@@ -21,4 +21,4 @@ cat >~/.config/autostart/xflux.desktop <<EOL
   Type=Application
 EOL
 
-/usr/bin/xflux -l 26.9 -g 49
+# /usr/bin/xflux -l 26.9 -g 49
