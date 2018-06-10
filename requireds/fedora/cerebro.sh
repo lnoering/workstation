@@ -5,8 +5,8 @@
 
 wget -c https://github.com/KELiON/cerebro/releases/download/v0.3.1/cerebro-0.3.1-x86_64.AppImage
 
-mv cerebro-0.3.1-x86_64.AppImage /opt/
-chmod +x /opt/cerebro-0.3.1-x86_64.AppImage
+sudo mv cerebro-0.3.1-x86_64.AppImage /opt/
+sudo chmod +x /opt/cerebro-0.3.1-x86_64.AppImage
 
 touch ~/.config/autostart/cerebro.desktop
 
