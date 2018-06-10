@@ -3,7 +3,7 @@
 # url - https://cerebroapp.com/
 # Download 0.3.1
 
-wget -c https://github.com/KELiON/cerebro/releases/download/v0.3.1/cerebro-0.3.1-x86_64.AppImage
+sudo wget -c https://github.com/KELiON/cerebro/releases/download/v0.3.1/cerebro-0.3.1-x86_64.AppImage
 
 sudo mv cerebro-0.3.1-x86_64.AppImage /opt/
 sudo chmod +x /opt/cerebro-0.3.1-x86_64.AppImage
