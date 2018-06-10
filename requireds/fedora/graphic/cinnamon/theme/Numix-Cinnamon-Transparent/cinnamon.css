@@ -417,16 +417,13 @@ StScrollBar StButton#hhandle:active {
   font-size: 12px;
   width: 32px;
   height: 26px;
-  background-color: rgba(33, 33, 33, 0.5) !important;
+  background-color: rgba(33, 33, 33, 0.5);
 }
 
-.panel-top .button:hover{
+/*.panel-top .button:hover{
   background-color: transparent !important;
 }
-
-.panel-bottom .button:hover{
-  background-color: transparent !important;
-}
+*/
 
 .panel-top:highlight {
   border-image: none;
@@ -449,7 +446,7 @@ StScrollBar StButton#hhandle:active {
   font-size: 12px;
   width: 32px;
   height: 26px;
-  background-color: transparent !important;
+   background-color: transparent; 
 }
 
 .panel-bottom:highlight {
@@ -1513,25 +1510,18 @@ StScrollBar StButton#hhandle:active {
   color: #fff;
 }
 
-.panel-bottom .window-list-item-box {
-  color: #eee;
-}
-
 .panel-bottom .window-list-item-box:hover {
-  border-image: url("img/containers/dark-bg.svg") 4;
-  color: #eee;
+  padding-bottom: 13px;
   background-color: transparent !important; 
 }
 
 .panel-bottom .window-list-item-box:active, .panel-bottom .window-list-item-box:checked, .panel-bottom .window-list-item-box:focus {
   border-image: url("img/panel/window-list__bottom__active.svg") 4;
-  color: #eee;
   background-color: transparent !important; 
 }
 
 .panel-bottom .window-list-item-box:hover:active, .panel-bottom .window-list-item-box:hover:checked, .panel-bottom .window-list-item-box:hover:focus {
-  border-image: url("img/panel/window-list__bottom__active__hover.svg") 4;
-  color: #eee;
+  padding-bottom: 13px;
   background-color: transparent !important; 
 }
 
